@@ -1,0 +1,26 @@
+#mainDiv{
+	width: 400px;
+	border: 1px outset black;
+	display:flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+#leftDiv{
+		width:200px;
+		text-align:center;
+		vertical-align:middle;
+	
+}
+
+#rightDiv{
+	
+		width: 200px;
+		vertical-align:middle;
+}
+
+#pizza{
+	max-width:200px;
+	
+}

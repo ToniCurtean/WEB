@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<title>Problema 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+		<select name="list1" multiple="multiple" id="list1">
+			<option value="1">Dodge Challenger Hellcat</option>
+			<option value="2">Hellcat Durango</option>
+			<option value="3">Mercedes-Benz AMG CLA250</option>
+			<option value="4">Mercedes-Benz G Class</option>
+			<option value="5">Rolls Royce Cullinan</option>
+		</select>
+	
+	
+		<select name="list2" multiple="multiple" id="list2">
+			<option value="1">Track</option>
+			<option value="2">Luxury</option>
+			<option value="3">Classy</option>
+			<option value="4">Sport</option>
+			<option value="5">AMG</option>
+		</select>
+		
+		<script>
+			$('#list1').dblclick(function() { return $('#list1 option:selected').remove().appendTo('#list2'); });
+			$('#list2').dblclick(function() { return $('#list2 option:selected').remove().appendTo('#list1'); });
+		</script>
+	
+</body>
+
+</html>

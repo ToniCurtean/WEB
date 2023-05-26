@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+	<title>Formular pentru deschiderea contului bancar</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+	<h1>Formular deschidere cont bancar</h1>
+	<div>
+		<label for="data">Data:</label>
+		<input type="text" id="data" name="data" maxlength="10" value="2023-03-11" readonly><br><br>
+	</div>
+	<h2>Conturi disponibile</h2>
+	<ul>
+		<li>Personale:
+			<ol>
+				<li>Cont normal</li>
+				<li>Cont pentru investitii:
+					<ul>
+						<li>Bursa</li>
+						<li>Imobiliare</li>
+					</ul>
+				</li>
+			</ol>
+		</li>
+		<li>Pentru intreprinderi:
+			<ol>
+				<li>PFA</li>
+				<li>SRL</li>
+				<li>Intreprindere familiala</li>
+			</ol>
+		</li>
+	</ul>
+	<h2>1.Calitatea(titular):</h2>
+	<table border='1'>
+		<tr>
+			<th>Persoana</th>
+			<th>Numar de telefon</th>
+			<th>Semnatura titular</th>
+			<th>Semnatura banca</th>
+		</tr>
+		<tr>
+			<td>
+				<table border='2'>
+					<tr>
+						<th colspan="3">Nume,prenume si gen titular</th>
+					</tr>
+					<tr>
+						<td valign="middle">Nume<input type="text" name="nume" maxlength="10"></td>
+						<td valign="middle">Prenume<input type="text" name="prenume" maxlength="10"></td>
+						<td valign="baseline">
+							<div><input type="checkbox" id="masculin" name="masculin" checked><label for="masculin">Masculin</label></div>
+							<div><input type="checkbox" id="feminin" name="feminin"><label for="feminin">Feminin</label></div>
+							<div><input type="checkbox" id="confidential" name="confidential" disabled><label for="confidential">Confidential</label></div>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<th>Numar de telefon<input type="text" name="numar de telefon"></th>
+			<th>Semnatura titular<input type="text" name="semnatura titular"></th>
+			<th>Semnatura banca<input type="text" name="semnatura banca"></th>
+		</tr>
+		<tr>
+			<th colspan="4">Adresa</th>
+		</tr>
+		<tr>
+			<td>Judet:<input
+				type="text"
+				name="judet"></td>
+				
+				<td>Oras:<input
+				type="text"
+				name="oras"></td>
+				
+				<td>Adresa:<input
+				type="text"
+				name="adresa"></td>
+				
+				<td>Cod postal:<input
+				type="text"
+				name="cod postal"></td>
+		</tr>
+			
+		<tr>
+				<th colspan='3'>Tip de cont</th>
+		</tr>
+			
+			<tr>
+				<td>Tip:<select>
+					<option value="Personal" selected>
+						Personala
+					</option>
+					<option value="Intreprinderi">
+						Intreprinderi
+					</option>
+					<option value="Investitii">
+						Investitii
+					</option>
+				</select></td>
+				
+				<td>Valuta:<br>
+					RON<input type="radio" name="valuta">
+					USD<input type="radio" name="valuta">
+					EURO<input type="radio" name="valuta">
+				</td>
+				
+				<td>Denumire:<input
+				type="text"
+				name="denumire"></td>
+				
+				<td>IBAN:<input
+				type="text"
+				name="iban"></td>
+				
+			</tr>
+			
+		</table>
+		
+		<p>Declaratie titular:<br>
+			<textarea name="declaratie" cols="40" rows="10">Declaratie...</textarea>
+		</p>
+	
+		<h2>2.Calitatea(imputernicit)</h2>
+		
+		<p>Nume:<input type="text" name="nume"></p>
+
+		<p>Prenume:<input type="text" name="prenume"></p>
+				
+		<p>CNP:<input type="text" name="cnp"></p>
+		
+		<p>Avand drept de:</p>
+		
+		<table border="2">
+			<tr>
+				<th>Semnatura unica</th>
+				<th>Prima semnatura</th>
+				<th>A doua semnatura</th>
+				<th>A treia semnatura</th>
+			</tr>
+			<tr>
+				<th>
+					<div>
+						<input type="checkbox" name="semnatura unica" >
+					</div>
+				</th>
+				
+				<th>
+					<div>
+						<input type="checkbox" name="prima semnatura" >
+					</div>
+				</th>
+				
+				<th>
+					<div>
+						<input type="checkbox" name="a doua semnatura" >
+					</div>
+				</th>
+				
+				<th>
+					<div>
+						<input type="checkbox" name="a treia semnatura" >
+					</div>
+				</th>
+			</tr>
+		</table>
+				
+		<p>Declaratie imputernicit:<textarea
+		name="declaratie imputernicit"
+		cols="40"
+		rows="10"
+		>Declaratie...</textarea>
+		</p>
+		
+		<p><strong>Ai completat formular cu succes!Pentru a incarca formularul apasa pe buton!</strong></p>
+		
+		
+		<p>
+			<button type="button"
+			id="IncarcaFormular">Incarca formular</button>
+		</p>
+			
+		<p>
+		<a href="temahtml4pag2.html">Apasa aici pentru a termina completarea!</a>
+		</p>
+		
+		
+		
+	</body>
+
+
+
+</html>

@@ -1,0 +1,44 @@
+header{
+	background-color:red;
+	height:150px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+#mainView{
+	
+	background-color: green;
+    height: 700px;
+    width: auto;
+    display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+ul{
+	background-color: yellow;
+    list-style-type: none;
+    float: left;
+    height: 700px;
+    width: 100px;
+    padding: 0;
+}
+
+li{
+	padding:2px;
+	border: 1px solid black;
+}
+
+footer{
+	background-color: pink;
+    height: 150px;
+    display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+
+*{
+	margin:0;
+} 

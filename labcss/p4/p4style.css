@@ -1,0 +1,114 @@
+img{
+	display:block;
+}
+
+#id1{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 0 84px;
+}
+
+#id2{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 84px 84px;
+}
+
+#id3{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 168px 84px;
+}
+
+#id4{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 252px 84px;
+}
+
+#id5{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 336px 84px;
+}
+
+#id6{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 420px 84px;
+}
+
+
+#id7{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 504px 84px;
+}
+
+#id8{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 588px 84px;
+}
+
+#id9{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 672px 84px;
+}
+
+#id10{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 756px 84px;
+}
+
+#id11{
+	width:84px;
+	height:84px;
+	background:url(css-pr4.png) 840px 84px;
+}
+
+#id1:hover{
+  background: url(css-pr4.png) 0 0px;
+}
+
+#id2:hover{
+  background: url(css-pr4.png) 84px 0px;
+}
+
+#id3:hover{
+  background: url(css-pr4.png) 168px 0px;
+}
+
+#id4:hover{
+  background: url(css-pr4.png) 252px 0px;
+}
+
+#id5:hover{
+  background: url(css-pr4.png) 336px 0px;
+}
+
+#id6:hover{
+  background: url(css-pr4.png) 420px 0px;
+}
+
+#id7:hover{
+  background: url(css-pr4.png) 504px 0px;
+}
+
+#id8:hover{
+  background: url(css-pr4.png) 588px 0px;
+}
+
+#id9:hover{
+  background: url(css-pr4.png) 672px 0px;
+}
+
+#id10:hover{
+  background: url(css-pr4.png) 756px 0px;
+}
+
+#id11:hover{
+  background: url(css-pr4.png) 840px 0px;
+}

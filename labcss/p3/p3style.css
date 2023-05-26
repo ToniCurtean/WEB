@@ -1,0 +1,37 @@
+
+*{
+	margin:0;
+}
+
+
+header{
+	background-color:red;
+	height:100px;
+	text-align:center;
+}
+
+ul{
+	background-color:yellow;
+	list-style-type:none;
+	height:25px;
+	text-align:center;
+}
+
+#mainView{
+	background-color:green;
+	min-height: calc(100% - 100px - 25px - 60px);
+    width: 100%;
+    display: block;
+}
+
+
+footer{
+	background-color:pink;
+	height:60px;
+	text-align:center;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
